@@ -73,7 +73,7 @@ def restore(context, sql_file_path, mariadb_root_username=None, mariadb_root_pas
 	# check if partial backup
 	if is_partial(decompressed_file_name):
 		click.secho(
-			"Partial Backup file detected. You cannot use a partial file to restore a Frappe Site.",
+			"Partial Backup file detected. You cannot use a partial file to restore a BuzzERP Site.",
 			fg="red"
 		)
 		click.secho(

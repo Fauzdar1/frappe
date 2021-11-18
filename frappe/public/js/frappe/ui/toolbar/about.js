@@ -1,7 +1,7 @@
 frappe.provide('frappe.ui.misc');
 frappe.ui.misc.about = function() {
 	if(!frappe.ui.misc.about_dialog) {
-		var d = new frappe.ui.Dialog({title: __('Frappe Framework')});
+		var d = new frappe.ui.Dialog({title: __('BuzzERP')});
 
 		$(d.body).html(repl("<div>\
 		<p>"+__("Open Source Applications for the Web")+"</p>  \
@@ -19,7 +19,7 @@ frappe.ui.misc.about = function() {
 		<h4>Installed Apps</h4>\
 		<div id='about-app-versions'>Loading versions...</div>\
 		<hr>\
-		<p class='text-muted'>&copy; Frappe Technologies Pvt. Ltd and contributors </p> \
+		<p class='text-muted'>&copy; BuzzERP and contributors </p> \
 		</div>", frappe.app));
 
 		frappe.ui.misc.about_dialog = d;
