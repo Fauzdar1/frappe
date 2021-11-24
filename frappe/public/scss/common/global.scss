@@ -86,7 +86,7 @@ input[type="checkbox"] {
 
 	&:checked {
 		background-color: var(--blue-500);
-		background-image: $check-icon, linear-gradient(180deg, #4AC3F8 -124.51%, #2490EF 100%);
+		background-image: $check-icon, linear-gradient(180deg, #ff7070 -124.51%, #FF5757 100%);
 		background-size: 57%, 100%;
 		box-shadow: none;
 		border: none;
